@@ -16,15 +16,15 @@ body {
   background-size: cover;
 }
 #page-2 {
-    background-image: linear-gradient(to right bottom, rgba(189, 134, 179, 0.8), rgba(202, 65, 199, 0.8)), url(./img/cyber4.jpg);
+    background-image: linear-gradient(to right bottom, rgba(189, 134, 179, 0.8), rgba(202, 65, 199, 0.8)), url(../img/cyber4.jpg);
     background-size: cover;
 }
 #page-3 {
-    background-image: linear-gradient(to right bottom, rgba(100, 120, 233, 0.8), rgba(48, 46, 184, 0.8)), url(./img/cyber3.jpg);
+    background-image: linear-gradient(to right bottom, rgba(100, 120, 233, 0.8), rgba(48, 46, 184, 0.8)), url(../img/cyber3.jpg);
     background-size: cover;
 }
 #page-4 {
-    background-image: linear-gradient(to right bottom, rgba(100, 243, 120, 0.8), rgba(214, 43, 237, 0.8)), url(./img/cyber2.jpg);
+    background-image: linear-gradient(to right bottom, rgba(100, 243, 120, 0.8), rgba(214, 43, 237, 0.8)), url(../img/cyber2.jpg);
    background-size: cover;
 }
 
