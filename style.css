@@ -8,13 +8,14 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
+    background-color: #BODBF1;
     /* overflow: hidden; */
 }
 
 .nav-bar {
     height: 15vh;
     color: rgb(255, 255, 255);
-    background-color: #02198b;
+    background-color: blue;
     /* display: flex; */
 }
 
@@ -44,21 +45,13 @@ body {
 }
 
 #page-1 {
-  background-image: linear-gradient(to right bottom, rgba(80, 92, 153, 0.3), rgba(2, 92, 153, 0.3)), url('img/TiideLab--Image.jpg');
+  background-image: linear-gradient(to right bottom, rgba(80, 92, 153, 0.3), rgba(0, 30, 142, 0.7)), url('img/TiideLab--Image.jpg');
   background-size: cover;
 }
 #page-2 {
-    background-image: linear-gradient(to right bottom, rgba(189, 134, 179, 0.3), rgba(202, 65, 199, 0.3)), url('img/TiideLab-Image-2.jpg');
+    background-image: linear-gradient(to right bottom, rgba(80, 92, 153, 0.3), rgba(2, 92, 153, 0.9)), url('img/TiideLab-Image-2.jpg');
     background-size: cover;
 }
-#page-3 {
-    background-image: linear-gradient(to right bottom, rgba(100, 120, 233, 0.3), rgba(48, 46, 184, 0.3)), url(../img/cyber3.jpg);
-    background-size: cover;
-}
-/* #page-4 {
-    background-image: linear-gradient(to right bottom, rgba(100, 243, 120, 0.3), rgba(214, 43, 237, 0.3)), url(../img/cyber2.jpg);
-   background-size: cover;
-} */
 
 .page {
     display: flex;
@@ -211,5 +204,5 @@ body {
     }
 }
 
-
+/* Media */
 
