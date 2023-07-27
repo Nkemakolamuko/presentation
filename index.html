@@ -8,47 +8,115 @@
     <title>Presentation</title>
 </head>
 <body>
+
+    <!-- Header -->
+    <header id="pageOne">
+        <nav class="nav-bar">
+            <div class="container nav-wrap">
+                <h2>E-O-M By Team 2</h2>
+                <ul id="links">
+                    <li><a class="current" href="#">DSA</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <section id="page-1" class="page">
-        <h1>Welcome to my Presentation</h1>
+        <h1>Welcome to Team 2 Presentation</h1>
         <p>In today's interconnected digital world, the significance of cybersecurity cannot be overstated. Safeguarding sensitive data and systems has become paramount. This presentation delves into the ever-evolving landscape of cybersecurity threats, the critical need for robust defense mechanisms, and practical strategies to fortify our digital assets. Join us as we explore the challenges and discover effective solutions for a safer digital future.</p>
-        <div>
+        <!-- <div>
+            <a href="#pageOne" class="btn">Previos page <i class="fas fa-arrow-circle-up"></i></a>
             <a href="#page-2" class="btn">Next page <i class="fas fa-arrow-circle-down"></i></a>
-        </div>
+            
+        </div> -->
     </section>
 
 
     <section id="page-2" class="page">
-        <h1>Password Security</h1>
-        <p>Password security is crucial in safeguarding our online accounts and sensitive data. A strong password, combining uppercase and lowercase letters, numbers, and special characters, helps thwart hackers. Regularly updating passwords, employing two-factor authentication, and refraining from using common phrases enhance our digital defense, ensuring a safer online experience.</p>
-        <div>
+        <h1>CSS BASICS</h1>
+        <p>HTML stands for Hypertext Markup Language. It is the standard language used to create and structure web pages on the internet. HTML uses tags to define elements such as headings, paragraphs, links, and images, allowing browsers to display content correctly. It forms the backbone of most websites, enabling easy information presentation and navigation.</p>
+        <!-- <div>
             <a href="#page-1" class="btn btn-dark">Prev page <i class="fas fa-arrow-circle-down"></i></a>
             <a href="#page-3" class="btn">Next page <i class="fas fa-arrow-circle-down"></i></a>
-        </div>
+        </div> -->
     </section>
 
 
-    <section id="page-3" class="page">
-        <h1>Social Engineering</h1>
-        <p>Social engineering is a deceptive tactic employed by cybercriminals to manipulate individuals into divulging confidential information or granting unauthorized access. It exploits human psychology, trust, and emotions, making users unwittingly compromise security. Awareness, skepticism, and education are vital defenses against such manipulative attacks.</p>
+    <!-- <section id="page-3" class="page">
+        <h1>CSS BASICS</h1>
+        <p>CSS, or Cascading Style Sheets, complements HTML by controlling a webpage's appearance. It applies styles like colors, fonts, layout, and spacing to HTML elements, enhancing visual presentation. With CSS, designers can create consistent and appealing designs, making it easier to maintain and modify the look of a website across multiple pages.</p>
         <div>
             <a href="#page-2" class="btn btn-dark">Prev page <i class="fas fa-arrow-circle-down"></i></a>
             <a href="#page-4" class="btn">Next page <i class="fas fa-arrow-circle-down"></i></a>
         </div>
-    </section>
+    </section> -->
 
 
-    <section id="page-4" class="page">
+    <!-- <section id="page-4" class="page">
         <h1>Malicious Software</h1>
         <p>Malware, short for malicious software, poses a severe threat in the digital landscape. Designed to harm, steal data, or disrupt systems, it infiltrates devices through deceptive means. Antivirus software, regular updates, and cautious online behavior are essential in combating malware's harmful effects.</p>
         <div>
-            <a href="#page-3" class="btn">Prev page <i class="fas fa-arrow-circle-down"></i></a>
+            <a href="/index.html" class="btn">Back Up <i class="fas fa-arrow-circle-up"></i></a>
+        </div>
+    </section> -->
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+           <figure class="gallery-items"> <img src="img/TiideLab-Image-2.jpg"> </figure>
+           <figure class="gallery-items"> <img src="img/TL-3.jpg"> </figure>
+           <figure class="gallery-items"> <img src="img/TL-4.jpg" > </figure>
+           <!-- <figure class="gallery-items"> <img src="img/TL-5.jpg"> </figure>
+           <figure class="gallery-items"> <img src="img/TL-6.jpg" > </figure>
+           <figure class="gallery-items"> <img src="img/TL-7.jpg" > </figure> -->
         </div>
     </section>
 
+    <!-- Portfolio -->
+
+    <div class="container">
+        <section id="portfolio">
+           <h2>PROJECTS</h2>
+           <div class="grid-container">
+             <div class="portfolio">
+               <a href="https://vins-update.vercel.app/" target="_blank">
+                 <img src="img/Screenshot (253).png" alt="newssite">
+                 <div class="portfolio-overlay">
+                   <h3>Sports News</h3>
+                   <p>Sports News Websites</p>
+                 </div>
+               </a>
+             </div>
+       
+             <div class="portfolio">
+               <a href="https://summit-trust-finance.vercel.app/" target="_blank">
+                 <img src="img/Screenshot (254).png" alt="ajcity">
+                 <div class="portfolio-overlay">
+                   <h3>Trust Finance</h3>
+                   <p>A Financial Website</p>
+                 </div>
+               </a>
+             </div>
+       
+             <div class="portfolio">
+               <a href="https://dee-dee-adejokemi.vercel.app/" target="_blank">
+                 <img src="img/Screenshot (256).png" alt="stats preview">
+                 <div class="portfolio-overlay">
+                   <h3>DD Hotel</h3>
+                   <p>Hotel Website</p>
+                 </div>
+               </a>
+             </div>
+           </div>
+         </section>
+       </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script> -->
 
 
 </body>

@@ -8,25 +8,57 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.nav-bar {
+    height: 15vh;
+    color: rgb(255, 255, 255);
+    background-color: #02198b;
+    /* display: flex; */
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#links {
+    list-style-type: none;
+    display: flex; 
+}
+
+#links li {
+    margin-right: 60px;
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+
+#links li a {
+    color: #fff;
+}
+
+#links a {
+    text-decoration: none;
 }
 
 #page-1 {
-  background-image: linear-gradient(to right bottom, rgba(178, 216, 172, 0.8), rgba(79, 168, 138, 0.8)), url(../img/cyber1.jpg);
+  background-image: linear-gradient(to right bottom, rgba(80, 92, 153, 0.3), rgba(2, 92, 153, 0.3)), url('img/TiideLab--Image.jpg');
   background-size: cover;
 }
 #page-2 {
-    background-image: linear-gradient(to right bottom, rgba(189, 134, 179, 0.8), rgba(202, 65, 199, 0.8)), url(../img/cyber4.jpg);
+    background-image: linear-gradient(to right bottom, rgba(189, 134, 179, 0.3), rgba(202, 65, 199, 0.3)), url('img/TiideLab-Image-2.jpg');
     background-size: cover;
 }
 #page-3 {
-    background-image: linear-gradient(to right bottom, rgba(100, 120, 233, 0.8), rgba(48, 46, 184, 0.8)), url(../img/cyber3.jpg);
+    background-image: linear-gradient(to right bottom, rgba(100, 120, 233, 0.3), rgba(48, 46, 184, 0.3)), url(../img/cyber3.jpg);
     background-size: cover;
 }
-#page-4 {
-    background-image: linear-gradient(to right bottom, rgba(100, 243, 120, 0.8), rgba(214, 43, 237, 0.8)), url(../img/cyber2.jpg);
+/* #page-4 {
+    background-image: linear-gradient(to right bottom, rgba(100, 243, 120, 0.3), rgba(214, 43, 237, 0.3)), url(../img/cyber2.jpg);
    background-size: cover;
-}
+} */
 
 .page {
     display: flex;
@@ -76,6 +108,80 @@ body {
     animation: heading var(--animate-speed) forwards ease-in;
 }
 
+/* section{
+    margin-top: 4.8rem;
+} */
+.gallery{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1.6rem;
+    width: 100%;
+    /* position: relative; */
+}
+
+.gallery-items{
+    overflow: hidden;
+}
+.gallery-items img{
+    display: flex;
+    width: 100%;
+    /* position: absolute; */
+    /* height: 20rem; */
+    transition: all 0.4s;
+    border-radius: 5px;
+
+}
+
+.gallery-items img:hover{
+    transform: scale(1.1);
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1.6rem;
+  }
+
+.portfolio {
+    position: relative;
+    /* overflow: hidden; */
+  }
+  
+  .portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  img{
+  width: 90%;
+  }
+
+.portfolio-overlay:hover {
+    opacity: 1;
+}
+
+.portfolio-overlay h3,
+.portfolio-overlay p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+
 @keyframes heading {
     to {
         transform: translateY(0);
@@ -86,6 +192,8 @@ body {
     transform: translateX(-1800px);
     animation: text  var(--animate-speed) forwards ease-in 2s;
 }
+
+
 @keyframes text {
     to {
         transform: translateX(0);
