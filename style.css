@@ -114,6 +114,13 @@ body {
     /* position: relative; */
 }
 
+#gallery h2, 
+#portfolio h3 {
+    color: #333;
+    text-align: center;
+    font-size: 3rem;
+}
+
 .gallery-items{
     overflow: hidden;
 }
